@@ -1,0 +1,77 @@
+<form class="form-horizontal">
+    <h4>{{ _('Octovox Configuration') }}</h4>
+	<br>
+    <p><b>{{ _('Step 1: ') }}</b>{{ _('Enter a name to identify this printer.') }}</p>
+
+    <div class="control-group">
+        <label class="control-label">{{ _('Printer Name') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" id="printer_name" data-bind="value: settings.plugins.octovox.printer_name">
+        </div>
+    </div>
+	
+	<br>
+    <p><b>{{ _('Step 2: ') }}</b>{{ _('Click ') }}<u>{{ _('Request Printer Registration') }}</u>{{ _(' to be directed to the login page. If you have not yet registered, follow the steps on that page to create an account.') }}</p>
+	
+	<div class="control-group">
+        <div class="controls">
+            <button class="btn" data-bind="click: function() { requestRegistration() }">{{ _('Request Printer Registration') }}</button> 
+			<br>
+			<span data-bind="visible: requestResult(), text: requestMessage"></span>
+        </div>
+    </div>
+	
+	<br>
+    <p><b>{{ _('Step 3: ') }}</b>{{ _('Enter the Unique Key that is returned after successful registration.') }}</p>
+
+    <div class="control-group">
+        <label class="control-label">{{ _('Printer Unique Key') }}</label>
+        <div class="controls">
+            <input type="text" class="input-block-level" id="printer_uid" data-bind="value: settings.plugins.octovox.printer_uid">
+        </div>
+    </div>
+    
+	<br>
+    <p><b>{{ _('Step 4: ') }}</b>{{ _('Click ') }}<u>{{ _('Verify Registration') }}</u>{{ _(' to check that your Printer Name and Unique Key are correctly configured.') }}</p>
+
+    <div class="control-group">
+        <div class="controls">
+            <button class="btn" data-bind="click: function() { verifyRegistration() }"><i class="icon-spinner icon-spin" data-bind="visible: testActive()"></i> {{ _('Verify Registration') }}</button> 
+			<span data-bind="visible: testResult() || settings.plugins.octovox.printer_is_registered(), text: testMessage"></span>
+        </div>
+    </div>
+	
+	<br>
+    <p><b>{{ _('Step 5: ') }}</b>{{ _('Click ') }}<u>{{ _('Save') }}</u>{{ _(' to complete the setup.') }}</p>
+
+	<br>
+	<br>
+    <p><b>{{ _('(Optional) Step 6: ') }}</b>{{ _('Adjust how often you wish to publish status updates to Octovox.') }}</p>
+
+	<br>
+	<div class="control-group">
+		<div class="controls">
+			<div id="control-update-frequency" class="control">
+				<div class="slider slider-horizontal" style="width: 265px;">
+					<div class="slider-track">
+					<div class="slider-selection" style="left: 0%; width: 50%;">
+				</div>
+				<div class="slider-handle round" style="left: 50%;"></div>
+					<div class="slider-handle round hide" style="left: 0%;"></div>
+				</div>
+				<div class="tooltip top hide" style="top: -14px; left: 61.3188px;">
+					<div class="tooltip-arrow"></div>
+				</div>
+				<input type="number" style="width: 250px; display: none;" data-bind="slider: {min: 30, max: 300, step: 5, value: settings.plugins.octovox.update_settings_interval, tooltip: 'hide'}"></div>
+			</div>
+			<button class="btn btn-block" style="width: 267px; margin: 10px 0px;" disabled="">Update Frequency: <span data-bind="text: settings.plugins.octovox.update_settings_interval() + ' sec'"><span></button>
+		</div>
+	</div>
+	
+	<br>
+	<div>
+		<span>{{ _('Last Published Status Update') }}: <span data-bind="text: settings.plugins.octovox.printer_last_update_result()"></span></span>
+	</div>
+
+</form>
+	
