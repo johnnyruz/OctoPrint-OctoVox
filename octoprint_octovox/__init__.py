@@ -32,7 +32,7 @@ class OctovoxPlugin(octoprint.plugin.StartupPlugin,
 	##~~ StartupPlugin mixin
 
 	def on_after_startup(self):
-	        self._logger.info("Octovox Is Alive!")
+	        self._logger.info("OctoVox Is Alive!")
         	self._restart_timer()
 
 	##~~ SettingsPlugin mixin
@@ -77,7 +77,7 @@ class OctovoxPlugin(octoprint.plugin.StartupPlugin,
 
 	def get_template_configs(self):
 		return [
-			dict(type="settings", name='Octovox', custom_bindings=True)
+			dict(type="settings", name='OctoVox', custom_bindings=True)
 		]
 
         ##~~ EventHandler Plugin
@@ -96,17 +96,17 @@ class OctovoxPlugin(octoprint.plugin.StartupPlugin,
 		# for details.
 		return dict(
 			octovox=dict(
-				displayName="Octovox Plugin",
+				displayName="OctoVox Plugin",
 				displayVersion=self._plugin_version,
 
 				# version check: github repository
 				type="github_release",
 				user="johnnyruz",
-				repo="OctoPrint-Octovox",
+				repo="OctoPrint-OctoVox",
 				current=self._plugin_version,
 
 				# update method: pip
-				pip="https://github.com/johnnyruz/OctoPrint-Octovox/archive/{target_version}.zip"
+				pip="https://github.com/johnnyruz/OctoPrint-OctoVox/archive/{target_version}.zip"
 			)
 		)
 
@@ -137,7 +137,7 @@ class OctovoxPlugin(octoprint.plugin.StartupPlugin,
 # If you want your plugin to be registered within OctoPrint under a different name than what you defined in setup.py
 # ("OctoPrint-PluginSkeleton"), you may define that here. Same goes for the other metadata derived from setup.py that
 # can be overwritten via __plugin_xyz__ control properties. See the documentation for that.
-__plugin_name__ = "Octovox Plugin"
+__plugin_name__ = "OctoVox Plugin"
 
 def __plugin_load__():
 	global __plugin_implementation__

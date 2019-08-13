@@ -1,5 +1,5 @@
 /*
- * View model for OctoPrint-Octovox
+ * View model for OctoPrint-OctoVox
  *
  * Author: John Ruzick
  * License: Apache-2.0

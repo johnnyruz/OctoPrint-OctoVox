@@ -140,12 +140,12 @@ class UpdateStatus:
 				currentInterval *= 2
 
 				if (currentInterval > 300):
-					self._logger.info("Octovox Backoff. New interval %i" % 300)
+					self._logger.info("OctoVox Backoff. New interval %i" % 300)
 					settings.set(['update_settings_interval'], 300)
 					settings.save()
 					return True
 				else:
-					self._logger.info("Octovox Backoff. New interval %i" % currentInterval)
+					self._logger.info("OctoVox Backoff. New interval %i" % currentInterval)
 					settings.set(['update_settings_interval'], currentInterval)
 					settings.save()
 					return True
