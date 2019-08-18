@@ -3,23 +3,16 @@ layout: plugin
 
 id: octovox
 title: OctoPrint-OctoVox
-description: OctoPrint plugin for OctoVox
+description: OctoPrint plugin for OctoVox Amazon Alexa Integration
 author: John Ruzick
 license: AGPLv3
 
-# TODO
-date: 2019-07-29
+date: 2019-08-16
 
 homepage: https://github.com/johnnyruz/OctoPrint-OctoVox
 source: https://github.com/johnnyruz/OctoPrint-OctoVox
 archive: https://github.com/johnnyruz/OctoPrint-OctoVox/archive/master.zip
 
-# TODO
-# Set this to true if your plugin uses the dependency_links setup parameter to include
-# library versions not yet published on PyPi. SHOULD ONLY BE USED IF THERE IS NO OTHER OPTION!
-#follow_dependency_links: false
-
-# TODO
 tags:
 - octovox
 - Amazon Echo
@@ -27,18 +20,18 @@ tags:
 - Printer Status
 - Printer Temperature
 
-# TODO
 screenshots:
-- url: url of a screenshot, /assets/img/...
-  alt: alt-text of a screenshot
-  caption: caption of a screenshot
-- url: url of another screenshot, /assets/img/...
-  alt: alt-text of another screenshot
-  caption: caption of another screenshot
-- ...
+- url: /assets/img/plugins/octovox/settings.png
+  alt: Configure OctoVox
+  caption: Configure OctoVox
+- url: /assets/img/plugins/octovox/successful_registration.png
+  alt: Printer Registration
+  caption: Printer Registration
+- url: /assets/img/plugins/octovox/alexa_response.png
+  alt: Alexa Response
+  caption: Alexa Response
 
-# TODO
-featuredimage: url of a featured image for your plugin, /assets/img/...
+featuredimage: /assets/img/plugins/octovox/alexa_response.png
 
 ---
 
@@ -50,15 +43,32 @@ The OctoVox plugin eliminates that security risk by publishing only small inform
 that can then be retrieved by the Octovox Amazon Alexa Skill. This plugin and Alexa Skill do not allow any manipulation or
 control over your printer, it is entirely read-only and secured via user accounts.
 
-## Installation
+## OctoVox Plugin Installation and Configuration
 
-Installation is straightforward and broken down into easy steps on the plugin settings page.
+Installation is super easy. There is no need to change your router configuration, do
+port forwarding or open holes in your firewall.
 
-1. Download and install this plugin either through the Plugin Repository or directly via the Github zip
-2. Follow the steps on the OctoVox settings screen in OctoPrint to setup your account and request a registration key for your printer
-3. Enable the Octovox Skill from your Amazon Echo device or via the companion app
-4. Link your account in the Alexa app
-5. Ask Octovox for your status by asking "Alexa, ask my 3-D print server for my printer status"
+1. Download and install this plugin from the OctoPrint Plugin Repository or Github URL
+2. Open the Settings tab of the OctoPrint-OctoVox Plugin
+3. Enter a desired name for your printer
+4. Click the ***Request Printer Registration*** button
+5. You will be redirected to the OctoVox Login Page. If you do not yet have an account, click "Sign-Up" and enter a valid 
+email address and create a password. You will have to verify your email address and then you will be directed to a page 
+that will provide a unique key for your printer.
+6. Enter that unique key in the box for Step 3 on the OctoVox Settings Page.
+7. Click the ***Verify Registration*** button to make sure things were configured correctly.
+8. After the info is verified, click Save.
+
+## Alexa Setup 
+
+1. Use the Alexa companion mobile app or website to find and enable the Octovox Skill. 
+2. Once enabled, click on Settings and select Link Account.
+3. Enter the Username and Password created in step 4 of the Plugin Configuration.
+4. You can now ask Alexa for your printer status by saying "Alexa, ask my 3-D print server for my printer status"
+
+## Setup Walkthrough
+
+{% include youtube.html vid="4LcqT-awm-0" preview="'/assets/img/plugins/octovox/octovox_video_title.png'" %}
 
 ## Privacy
 
