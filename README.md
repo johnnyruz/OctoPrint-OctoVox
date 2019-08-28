@@ -2,15 +2,15 @@
 
 The OctoVox plugin for OctoPrint sends limited printer information to a database for access via Amazon Echo and Google Home devices. The problem with other voice solutions is that they require exposing access to your OctoPrint server over the public internet as well as require providing the external service with your OctoPrint API key.
 
-The OctoVox plugin eliminates that security risk by publishing only small informational status updates about your printer that can then be retrieved by the Octovox Amazon Alexa Skill or the My Three D Printer Google Action.
+The OctoVox plugin eliminates that security risk by publishing only small informational status updates about your printer that can then be retrieved by the Octovox Amazon Alexa Skill or the My Three D Print Server Google Action.
 
 ## A Note about Naming Conventions
 
 Amazon calls their Voice Applications "Skills", while Google calls their Voice Applications "Actions".
 
-For Alexa Skills, Amazon allows your Skill Name to be different than your Invocation phrase, so you will see the Alexa Skill listed in the store under the appropriate name of "Octovox". However, the invocation name cannot be one word, so in order to activate the skill the required phrase has been configured as "My 3D Print Server". For example, "Alexa, ask my 3D Print Server for Status".
+For Alexa Skills, Amazon allows your Skill Name to be different than your Invocation Phrase, so you will see the Alexa Skill listed in the store under the appropriate name of "Octovox". However, the invocation name cannot be one word and cannot contain numbers, so in order to activate the skill the required phrase has been configured as "My Three D Print Server". For example, "Alexa, ask my 3D Print Server for Status".
 
-Google Actions uses the Action Name as the Invocation phrase so they cannot be different. They enforce a requirement that the Invocation Phrase cannot be one word. In order to keep the Invocation Phrase consistient between platforms, you will see the OctoVox Google Action listed under the name "My Three D Print Server" in the Assistant App and Assistant Directory. You can then interact via the phrase "OK, Google, ask my 3D Print Server for Status".
+Google Actions uses the Action Name as the Invocation Phrase so they cannot be different. They also enforce a requirement that the Invocation Phrase cannot be one word and cannot contain numbers. In order to keep the Invocation Phrase consistent between platforms, you will see the OctoVox Google Action listed under the name "My Three D Print Server" in the Assistant App and Assistant Directory. You can then interact via the phrase "OK, Google, ask my 3D Print Server for Status".
 
 ## OctoPrint Setup
 
