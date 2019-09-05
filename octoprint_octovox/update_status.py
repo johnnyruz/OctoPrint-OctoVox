@@ -6,7 +6,7 @@ from octoprint.events import Events
 
 class UpdateStatus:
 
-	def __init__(self):
+	def __init__(self, logger):
 		self._statusItemIds = {
 			'hotend_temp': 1,
 			'bed_temp': 2,
@@ -18,6 +18,7 @@ class UpdateStatus:
 			'last_print_time': 8,
 			'last_print_result': 9
 		}
+		self._logger = logger
 		self._previousJobResult = ""
 		self._failureCount = 0
 

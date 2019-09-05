@@ -25,8 +25,10 @@ class OctovoxPlugin(octoprint.plugin.StartupPlugin,
 	def __init__(self):
 		super(OctovoxPlugin, self).__init__()
 		self._updateStatusTimer = None
-		self._update_status = UpdateStatus()
+		self._update_status = None
 
+        def initialize(self):
+		self._update_status = UpdateStatus(self._logger)
 
 	##~~ StartupPlugin mixin
 
@@ -50,9 +52,9 @@ class OctovoxPlugin(octoprint.plugin.StartupPlugin,
 		)
 
         def get_settings_restricted_paths(self):
-		return dict(admin=[["printer_name"], ["printer_uid"], ["printer_is_registered"], ["printer_last_update_result"], ["update_settings_interval"],],
+		return dict(admin=[["printer_name"], ["printer_uid"], ["printer_is_registered"], ["printer_last_update_result"], ["update_settings_interval"], ["baseApiUrl"], ["baseRegistrationUrl"], ["registration_client_key"],],
                 		user=[[],],
-                		never=[["baseApiUrl"], ["baseRegistrationUrl"], ["registration_client_key"],])
+                		never=[[],])
 
 	def on_settings_save(self, data):
         	self._logger.info("saving settings")
