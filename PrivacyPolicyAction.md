@@ -1,4 +1,4 @@
-# Privacy Policy - OctoVox Google Action
+# Privacy Policy - My Three D Print Server Google Action
 
 This privacy policy describes how johnnyruzdev (John Ruzick) (“johnnyruzdev”, “us” or “we”) protects your (“you”, “the user”) privacy and your data. Before using any of our Google Actions (“our actions”), please read this policy and our Google Actions Terms of Use, as well as the Google Terms of Use and the Privacy Policies by the Google LLC (with its affiliates, “Google”).
 
@@ -8,6 +8,8 @@ If you use one of our actions you fully agree to this privacy policy.
 
 ## General
 When you use our actions you have to talk to Google. This voice input is sent to Google and us where we use it to understand what our action should do for you. This is absolutely necessary for our service to give you an appropriate answer.
+
+The My Three D Print Server Google Action is used to interact with the OctoPrint-OctoVox Plugin for OctoPrint Connected 3D Printers.
 
 ## Data
 In order to successfully use this action, you will have to create an account. User account creation and authentication are managed through the AWS Cognito platform.
