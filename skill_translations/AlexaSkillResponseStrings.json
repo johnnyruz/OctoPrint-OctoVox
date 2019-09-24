@@ -1,0 +1,132 @@
+{
+  "Octovox": {
+    "default": {
+      "Static": {
+        "WelcomeSsml": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! How can I help you?",
+        "Demo1": "Here is a sample response: Your Printer is currently Printing. The Hot End Temperature is 220.0 degrees. The Bed Temperature is 60.1 degrees. The currently printing job is Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub>. The current job is 25 percent complete. The estimated time remaining is 3 hours, 20 minutes, 14 seconds.",
+        "Demo2": "Here is a sample response: Your Printer is currently Idle. The Hot End Temperature is 72.0 degrees. The Bed Temperature is 27.5 degrees. The previous job Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub> completed in 3 hours, 20 minutes, 14 seconds.",
+        "HelpMessage": "With the <sub alias=\"Octo Vox\">OctoVox</sub> skill you can get information about your OctoPrint connected 3-D printer from your Amazon Echo devices. You can say things like: ask my 3-D print server for my printer status, or, ask my 3-D print server what is printing. You can also say, \"Demo\", to hear a sample response.",
+        "HelpAccountLink": "This skill will require you to create and link an account to use most of the features. We have delivered a LinkAccount home card to the Alexa App. Please go to the Alexa App to setup your account.",
+        "Prompt": "What would you like to do next?",
+        "HelpPrompt": "How can I help you?",
+        "Goodbye": "Thanks for using <sub alias=\"Octo Vox\">OctoVox.</sub>.",
+        "Fallback": "I'm not sure exactly what you asked for, or I have not yet been configured for that task. Here is your printer status.",
+        "AccountLinkWelcome": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! This skill requires account linking. We have delivered a LinkAccount home card to the Alexa App. Please go to the Alexa App to setup your account. You can also say, \"Help\", for more information. What would you like to do next?",
+        "AccountLink": "This skill requires account linking. We have delivered a LinkAccount home card to the Alexa App. Please go to the Alexa App to setup your account. You can also say, \"Help\", for more information. What would you like to do next?",
+        "HelpMessageGoogle": "With the OctoVox action you can get information about your OctoPrint connected 3-D printer from your Google Home devices. You can say things like: ask my 3-D print server for my printer status, or, ask my 3-D print server what is printing.",
+        "HelpMessageLinkGoogle": "In order to use this app, you will need to link your OctoVox account with Google. You can say, \"Link Account\", to start that process. You can also say, \"Demo\", to hear a sample response.",
+        "AccountLinkGoogle": "It appears you have not yet linked your OctoVox account with Google. Please say, \"Link Account\", to begin the setup. You can also say, \"Help\", for more information.",
+        "AccountLinkGoogleReprompt": "Please say \"Link Account\" to continue with account linking",
+        "StopString": "Thanks for using OctoVox!"
+      },
+      "Measure": {
+        "Test": "TestMeasure {0}",
+        "HotEndTemp": "The Hot End Temperature is {0} degrees.",
+        "BedTemp": "The Bed Temperature is {0} degrees.",
+        "PrinterState": "{0} is currently {1}.",
+        "CompletionPercent": "The Current Print Job is {0} percent complete.",
+        "TimeRemaining": "The Estimated Time Remaining is {0}.",
+        "CurrentZ": "The Current Z Height is {0} millimeters.",
+        "Filename": "The Currently Printing File is {0}.",
+        "LastJobResultSuccess": "The previous job {0} completed in {1}.",
+        "LastJobResultFailure": "The previous job {0} failed with a reason of {1}."
+      },
+      "Error": {
+        "ResponseError": "{0} has some issue with the data returned.",
+        "NoUpdateError": "{0} has not reported status in more than {1} {2}. Please check its configuration.",
+        "NoStatusError": "{0} has no status available.",
+        "UnknownHotEnd": "The Hot End Temp is Unknown.",
+        "UnknownBed": "The Bed Temp is Unknown",
+        "UnknownFile": "The currently printing file is unknown.",
+        "UnknownPercentage": "The current job percentage is unknown.",
+        "UnknownEta": "The current time remaining is unknown.",
+        "RequestValidationFailed": "Failed to Validate Request"
+      },
+      "Time": {
+        "Day": "day",
+        "Days": "days",
+        "Hour": "hour",
+        "Hours": "hours",
+        "Minute": "minute",
+        "Minutes": "minutes",
+        "Second": "second",
+        "Seconds": "seconds"
+      }
+    },
+    "en-GB": {
+      "Static": {
+        "WelcomeSsml": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! How can I help you?"
+      }
+    },
+    "en-US": {
+      "Static": {
+        "WelcomeSsml": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! How can I help you?"
+      }
+    },
+    "en-CA": {
+      "Static": {
+        "WelcomeSsml": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! How can I help you?"
+      }
+    },
+    "en-IN": {
+      "Static": {
+        "WelcomeSsml": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! How can I help you?"
+      }
+    },
+    "en-AU": {
+      "Static": {
+        "WelcomeSsml": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! How can I help you?"
+      }
+    },
+    "de-DE": {
+      "Static": {
+        "WelcomeSsml": "Willkommen bei <sub alias=\"Octo Vox\">OctoVox</sub>! Wie kann ich Ihnen helfen?"
+      }
+    },
+    "es-ES": {
+      "Static": {
+        "WelcomeSsml": "¡Bienvenido a <sub alias=\"Octo Vox\">OctoVox</sub>! ¿Cómo puedo ayudarle?"
+      }
+    },
+    "es-MX": {
+      "Static": {
+        "WelcomeSsml": "¡Bienvenido a <sub alias=\"Octo Vox\">OctoVox</sub>! ¿Cómo puedo ayudarle?"
+      }
+    },
+    "es-US": {
+      "Static": {
+        "WelcomeSsml": "¡Bienvenido a <sub alias=\"Octo Vox\">OctoVox</sub>! ¿Cómo puedo ayudarle?"
+      }
+    },
+    "fr-CA": {
+      "Static": {
+        "WelcomeSsml": "Bienvenue à <sub alias=\"Octo Vox\">OctoVox</sub>! Comment puis-je vous aider?"
+      }
+    },
+    "fr-FR": {
+      "Static": {
+        "WelcomeSsml": "Bienvenue à <sub alias=\"Octo Vox\">OctoVox</sub>! Comment puis-je vous aider?"
+      }
+    },
+    "hi-IN": {
+      "Static": {
+        "WelcomeSsml": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! How can I help you?"
+      }
+    },
+    "it-IT": {
+      "Static": {
+        "WelcomeSsml": "Benvenuti a <sub alias=\"Octo Vox\">OctoVox</sub>! Come posso aiutarla?"
+      }
+    },
+    "ja-JP": {
+      "Static": {
+        "WelcomeSsml": "Welcome to <sub alias=\"Octo Vox\">OctoVox</sub>! How can I help you?"
+      }
+    },
+    "pt-BR": {
+      "Static": {
+        "WelcomeSsml": "Bem-vindo ao <sub alias=\"Octo Vox\">OctoVox</sub>! Como posso ajudá-lo?"
+      }
+    }
+  }
+}
