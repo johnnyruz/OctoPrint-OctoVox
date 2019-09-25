@@ -80,7 +80,55 @@
     },
     "de-DE": {
       "Static": {
-        "WelcomeSsml": "Willkommen bei <sub alias=\"Octo Vox\">OctoVox</sub>! Wie kann ich Ihnen helfen?"
+        "WelcomeSsml": "Willkommen bei <sub alias=\"Octo Vox\">OctoVox</sub>! Wie kann ich behilflich sein?",
+        "Demo1": "Dies ist eine Beispielantwort: Dein Drucker ist aktiv. Die Hotend Temperatur beträgt 220.0 Grad. Die Druckbett Temperatur beträgt 60.1 Grad. Der aktuelle Druckauftrag ist Spool_Holder_15_millimeter<sub alias=\"punkt dschie code\">.gcode</sub>. Der Druckfortschritt beträgt 25 Prozent. Die verbleindende Zeit beträgt schätzungsweise 3 Stunden, 20 Minuten und 14 Sekunden.",
+        "Demo2": "Dies ist eine Beispielantwort: Dein Drucker ist inaktiv. Die Hotend Temperatur beträgt 72.0 Grad. Die Druckbett Temperatur beträgt 27.5 Grad. Der letzte Druckauftrag Spool_Holder_15_millimeter<sub alias=\"punkt dschie code\">.gcode</sub> dauerte 3 Stunden, 20 Minuten und 14 Sekunden.",
+        "HelpMessage": "Mit dem <sub alias=\"Octo Vox\">OctoVox</sub> Skill kannst du Informationen von deinem mit Octoprint verbundenem drei D Drucker über Amazon Echo Geräte abrufen. Du kannst Sachen wie, \"frag meinen drei D Druckserver nach dem Status\", oder, \"frag meinen drei D Druckserver was gedruckt wird\", sagen. Sag \"Demo\" für eine Beispielantwort.",
+        "HelpAccountLink": "Dieser Skill benötigt einen gelinkten Account für die meisten Funktionen. Dazu haben wir eine Karte in der Alexa-App bereitgestellt. Öffne die App um deinen Account einzurichten.",
+        "Prompt": "Was möchtest du als nächstes tun?",
+        "HelpPrompt": "Wie kann ich behilflich sein?",
+        "Goodbye": "Danke dass du <sub alias=\"Octo Vox\">OctoVox.</sub> benutzt.",
+        "Fallback": "Ich bin mir nicht sicher was du gefragt hast oder ich bin noch nicht dafür konfiguriert. Hier ist der Status deinen Druckers.",
+        "AccountLinkWelcome": "Willkommen bei <sub alias=\"Octo Vox\">OctoVox</sub>! Dieser Skill benötigt einen gelinkten Account für die meisten Funktionen. Dazu haben wir eine Karte in der Alexa-App bereitgestellt. Öffne die App um deinen Account einzurichten. Für mehr informationen, sag \"Hilfe\". Was möchtest du als nächstes tun?",
+        "AccountLink": "Dieser Skill benötigt einen gelinkten Account für die meisten Funktionen. Dazu haben wir eine Karte in der Alexa-App bereitgestellt. Öffne die App um deinen Account einzurichten. Für mehr informationen, sag \"Hilfe\". Was möchtest du als nächstes tun?",
+        "HelpMessageGoogle": "Mit der Octovox Action kannst du Informationen von deinem mit Octoprint verbundenem drei D Drucker über Google Home Geräte abrufen. Du kannst Sachen wie, \"frag meinen drei D Druckserver nach dem Status\", oder, \"frag meinen drei D Druckserver was gedruckt wird\", sagen.",
+        "HelpMessageLinkGoogle": "Dieser Skill benötigt einen gelinkten Account für die meisten Funktionen. Sag, \"Account verbinden\" um diesen Prozess zu starten. Sag \"Demo\" um eine Beispielantwort zu bekommen.",
+        "AccountLinkGoogle": "Es scheint als wäre dein Octovox Account noch nicht mit Google verbunden. Bitte sag, \"Account verbinden\", um die Einrichtung abzuschließen. Für mehr informationen, sag \"Hilfe\".",
+        "AccountLinkGoogleReprompt": "Bitte sag \"Account verbinden\" um mit der Verbindung deines Accounts fortzufahren.",
+        "StopString": "Danke dass du OctoVox benutzt!"
+      },
+      "Measure": {
+        "Test": "TestMessung {0}",
+        "HotEndTemp": "Die Hotend Temperatur beträgt {0} Grad.",
+        "BedTemp": "Die Druckbett Temperatur beträgt {0} Grad.",
+        "PrinterState": "{0} ist {1}.",
+        "CompletionPercent": "Der Druckfortschritt beträgt {0} Prozent.",
+        "TimeRemaining": "Die verbleindende Zeit beträgt schätzungsweise {0}.",
+        "CurrentZ": "Die aktuelle Höhe der Z Achse beträgt {0} Millimeter.",
+        "Filename": "Aktuell wird die Datei {0} gedruckt.",
+        "LastJobResultSuccess": "Der letzte Druckauftrag {0} dauerte {1}.",
+        "LastJobResultFailure": "Der letzte Druckauftrag {0} ist fehlgeschlagen. Der Grund ist {1}."
+      },
+      "Error": {
+        "ResponseError": "{0} hat Probleme mit den zurückgemeldeten Daten.",
+        "NoUpdateError": "{0} hat seinen Stus länger als {1} {2} nicht aktualisiert. Bitte Konfiguration überprüfen.",
+        "NoStatusError": "{0} hat keinen Status",
+        "UnknownHotEnd": "Die Hotend Temperatur ist unbekannt.",
+        "UnknownBed": "Die Druckbett Temperatur ist unbekannt.",
+        "UnknownFile": "Die aktuell gedruckte Datei ist unbekannt.",
+        "UnknownPercentage": "Der Fortschritt des Druckauftrags ist unbekannt.",
+        "UnknownEta": "Die verbleibende Zeit ist unbekannt.",
+        "RequestValidationFailed": "Konnte Anfrage nicht validieren."
+      },
+      "Time": {
+        "Day": "Tag",
+        "Days": "Tage",
+        "Hour": "Stunde",
+        "Hours": "Stunden",
+        "Minute": "Minute",
+        "Minutes": "Minuten",
+        "Second": "Sekunde",
+        "Seconds": "Sekunden"
       }
     },
     "es-ES": {
