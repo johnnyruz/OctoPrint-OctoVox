@@ -2,7 +2,7 @@
 	"German": {
 		"interactionModel": {
 			"languageModel": {
-				"invocationName": "meine drei d. druck server",
+				"invocationName": "Meinen drei D Druckserver",
 				"intents": [
 					{
 						"name": "AMAZON.FallbackIntent",
@@ -28,19 +28,19 @@
 						"name": "GetStatusIntent",
 						"slots": [],
 						"samples": [
-							"frage meinen drei. Druckserver nach dem Status",
-							"frage meine drei d. print dienen für eine Statusaktualisierung",
-							"frage meinen drei. Druckserver nach einem Update",
-							"frage meinen drei. Druckserver was gerade gedruckt wird",
-							"frage meinen drei. Druckserver nach meinem Druckerstatus",
+							"frage meinen drei D Druckserver nach dem Status",
+							"frage meinen drei D Druckserver nach einer Statusaktualisierung",
+							"frage meinen drei D Druckserver nach einem Update",
+							"frage meinen drei D Druckserver was gerade gedruckt wird",
+							"frage meinen drei D Druckserver nach meinem Druckerstatus",
 							"aktualisieren",
-							"Status",
-							"Wie ist der Zustand meines Druckers",
-							"Gib mir ein Update über meinen Status.",
+							"status",
+							"wie ist der Zustand meines Druckers",
+							"gib mir ein Update über meinen Status.",
 							"gib mir ein Update.",
-							"Was wird gerade gedruckt",
-							"Wie ist mein Druckerstatus",
-							"Wie ist mein Status"
+							"was wird gerade gedruckt",
+							"wie ist mein Druckerstatus",
+							"wie ist der Status"
 						]
 					},
 					{
@@ -57,28 +57,26 @@
 						"name": "GetTempIntent",
 						"slots": [],
 						"samples": [
-							"frage meinen drei. Druckserver nach der Temperatur",
-							"frage meine drei d. Druckaufschläge nach der Temperatur",
-							"frage meinen drei. Druckserver nach der Temperatur",
-							"frage meinen drei. Druckserver wie hoch die Druckertemperatur ist",
-							"frage meinen drei. Druckserver nach meiner Druckertemperatur",
+							"frage meinen drei D Druckserver nach der Temperatur",
+							"frage meinen drei D Druckserver nach seiner Temperatur",
+							"frage meinen drei D Druckserver wie hoch die Druckertemperatur ist",
+							"frage meinen drei D Druckserver nach der Druckertemperatur",
 							"Temperatur",
 							"temp",
 							"Wie ist die Temperatur meines Druckers",
-							"gib mir die temp.",
 							"Gib mir die Temperatur.",
-							"Was ist die aktuelle Temp.",
+							"Was ist die aktuelle Temperatur",
 							"Wie hoch ist meine Druckertemperatur",
-							"Was ist mein Temp."
+							"Wie hoch ist die Druckertemperatur"
 						]
 					},
 					{
 						"name": "GetTimeIntent",
 						"slots": [],
 						"samples": [
-							"Fragen Sie meinen drei. Druckserver nach der verbleibenden Zeit",
-							"frage meinen drei. Druckserver wie viel Zeit noch übrig ist",
-							"frage meinen drei. Druckserver wie lange",
+							"frage meinen drei D Druckserver nach der verbleibenden Zeit",
+							"frage meinen drei D Druckserver wie viel Zeit noch übrig ist",
+							"frage meinen drei D Druckserver wie lange noch",
 							"Zeit",
 							"Wie viel Zeit ist noch übrig.",
 							"Wie viel Zeit bleibt noch."
