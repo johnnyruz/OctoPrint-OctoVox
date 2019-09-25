@@ -2,7 +2,7 @@
 	"German": {
 		"interactionModel": {
 			"languageModel": {
-				"invocationName": "Meinen drei D Druckserver",
+				"invocationName": "meinen drei d druckserver",
 				"intents": [
 					{
 						"name": "AMAZON.FallbackIntent",
