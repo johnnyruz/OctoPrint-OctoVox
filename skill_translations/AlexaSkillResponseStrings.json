@@ -40,7 +40,8 @@
         "UnknownFile": "The currently printing file is unknown.",
         "UnknownPercentage": "The current job percentage is unknown.",
         "UnknownEta": "The current time remaining is unknown.",
-        "RequestValidationFailed": "Failed to Validate Request"
+        "RequestValidationFailed": "Failed to Validate Request",
+        "NoRegisteredPrinters": "You do not have any registered printers"
       },
       "Time": {
         "Day": "day",
@@ -118,7 +119,8 @@
         "UnknownFile": "Die aktuell gedruckte Datei ist unbekannt.",
         "UnknownPercentage": "Der Fortschritt des Druckauftrags ist unbekannt.",
         "UnknownEta": "Die verbleibende Zeit ist unbekannt.",
-        "RequestValidationFailed": "Konnte Anfrage nicht validieren."
+        "RequestValidationFailed": "Konnte Anfrage nicht validieren.",
+        "NoRegisteredPrinters": "Sie haben keine registrierten Drucker"
       },
       "Time": {
         "Day": "Tag",
