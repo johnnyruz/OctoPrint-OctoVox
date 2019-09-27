@@ -154,8 +154,56 @@
       }
     },
     "fr-FR": {
-      "Static": {
+    "Static": {
         "WelcomeSsml": "Bienvenue à <sub alias=\"Octo Vox\">OctoVox</sub>! Comment puis-je vous aider?"
+        "Demo1": "Voici un exemple de réponse: Votre imprimante est en cours d'impression. La température de le tête de chauffe est à 220 degrés. La température du lit est à 60 degrés. L'impression est court est Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub>. L'impression en court est à 25%. Le temp restant estimé est 3 heures, 20 minutes, 14 secondes.",
+        "Demo2": "Voici un exemple de réponse: Votre imprimante est en attente. La température de le tête de chauffe est à 72 degrés. La température du lit est à 27,5 degrés. Li'mpression précédente Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub> à fini en 3 heures, 20 minutes, 14 secondes.",
+        "HelpMessage": "avec <sub alias=\"Octo Vox\">OctoVox</sub> skill vous pouvez obtenir des information a propos de votre serveur d'impression 3-D depuis vos appareils amazon. Vous pouvez dire par exemple : demander l'état de mon serveur d'impression trois d ou qu'est ce qui est en train d'imprimer. Vous pouvez aussi dire \"Demo\" pour ecouter un exemple de reponse.",
+        "HelpAccountLink": "Ce skill a besoin d'avoir un compte creer et lié pour utiliser les fonctionnalités. Nous avons delivrer un linkaccount home card à l'application Alexa. Aller sur l'application Alexa pour parametrer votre compte.",
+        "Prompt": "Que voulez vous faire ensuite ?",
+        "HelpPrompt": "Comment puis-je vous aider ?",
+        "Goodbye": "Merci d'utiliser <sub alias=\"Octo Vox\">OctoVox.</sub>.",
+        "Fallback": "Je n'ai pas compris votre demande, ou je n'ai pas encore été configurer pour cette tache. Voici le status de votre imprimante.",
+        "AccountLinkWelcome": "Bienvenue a <sub alias=\"Octo Vox\">OctoVox</sub>! Ce skill a besoin d'avoir un compte creer et lié . Nous avons delivrer un linkaccount home card à l'application Alexa. Aller sur l'application Alexa pour parametrer votre compte.Vous pouvez aussi dire, \"aide\" pour plus d'informations. Que voulez vous faire ensuite ?",
+        "AccountLink": "Ce skill a besoin d'avoir un compte creer et lié . Nous avons delivrer un linkaccount home card à l'application Alexa. Aller sur l'application Alexa pour parametrer votre compte. Vous pouvez aussi dire, \"aide\" pour plus d'information.  Que voulez vous faire ensuite?",
+        "HelpMessageGoogle": "Avec les Actions Octovox With the OctoVox action ous pouvez obtenir des information a propos de votre serveur d'impression 3-D depuis vos appareils amazon. Vous pouvez dire par exemple : demander l'état de mon serveur d'impression trois d ou qu'est ce qui est en train d'imprimer. Vous pouvez aussi dire \"Demo\" pour ecouter un exemple de reponse..",
+        "HelpMessageLinkGoogle": "Pour pouvoir utiliser cette application vous avez besoin de lié votre compte Octovox avec votre compte Google.  Dites \"lié le compte\" pour créer l'association du compte. Vous pouvez aussi dire \"Demo\" pour ecouter un exemple de reponse.",
+        "AccountLinkGoogle": "Il semble que vous n'avez pas encore lié votre compte Octovox avec votre compte Google. Dites \"lié le compte\" pour créer l'association du compte. Vous pouvez aussi dire, \"aide\" pour plus d'information.",
+        "AccountLinkGoogleReprompt": "dites \"lié le compte\" pour continuer avec l'association du compte",
+        "StopString": "Merci d'utiliser OctoVox!"
+      },
+      "Measure": {
+        "Test": "Test de mesure {0}",
+        "HotEndTemp": "La temperature de la tête de chauffe est de {0} degrés.",
+        "BedTemp": "La température du lit est de {0} degrees.",
+        "PrinterState": "{0} est actuellement {1}.",
+        "CompletionPercent": "L'impression en cours est {0} pour cent complete.",
+        "TimeRemaining": "Le temps restant estimé est  {0}.",
+        "CurrentZ": "La hauteur de l'impression est de {0} millimeters.",
+        "Filename": "Le fichier en cours d'impression est {0}.",
+        "LastJobResultSuccess": "L'impression precedente {0} a finie en {1}.",
+        "LastJobResultFailure": "L'impression precedente {0} à échoué a cause de {1}."
+      },
+      "Error": {
+        "ResponseError": "{0} il y a eu un probleme avec les données retournées.",
+        "NoUpdateError": "{0} n'a pas retourner de status {1} {2}. Merci de verifier la configuration.",
+        "NoStatusError": "{0} n'as pas de status disponible.",
+        "UnknownHotEnd": "La temperature de la tête de chauffe est inconnue.",
+        "UnknownBed": "La temperature du lit est inconnue",
+        "UnknownFile": "Le fichier en cours d'impression est inconnue",
+        "UnknownPercentage": "Le pourcentage de l'impression en cours est inconnu",
+        "UnknownEta": "Le temps restant est inconnu",
+        "RequestValidationFailed": "La validation de la requete a échoué"
+      },
+      "Time": {
+        "Day": "jour",
+        "Days": "jours",
+        "Hour": "heure",
+        "Hours": "heures",
+        "Minute": "minute",
+        "Minutes": "minutes",
+        "Second": "seconde",
+        "Seconds": "secondes"
       }
     },
     "hi-IN": {
