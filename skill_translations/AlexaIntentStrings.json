@@ -421,16 +421,16 @@
 						"name": "GetStatusIntent",
 						"slots": [],
 						"samples": [
-							"demander l état à mes trois serveurs d impression",
-							"demander à mes trois d. print servir une mise à jour de statut",
-							"demander à mon trois serveur d'impression une mise à jour",
-							"demander à mon serveur d'impression trois pour connaître le statut de mon imprimante",
+							"demander l'état de mon serveur d'impression trois d.",
+							"demander une mise à jour de statut à mon serveur d'impression trois d.",
+							"demander à mon serveur d'impression trois d. une mise à jour",
+							"demander à mon serveur d'impression trois d. le statut de mon imprimante",
 							"mise à jour",
 							"statut",
-							"quel est l état de mon imprimante.",
+							"quel est l'état de mon imprimante.",
 							"donnez-moi une mise à jour sur mon statut.",
 							"donnez-moi une mise à jour.",
-							"ce qui est en train d imprimer.",
+							"qu'est ce qui est en train d'imprimer.",
 							"quel est le statut de mon imprimante.",
 							"quel est mon statut."
 						]
@@ -449,26 +449,22 @@
 						"name": "GetTempIntent",
 						"slots": [],
 						"samples": [
-							"demander à mes trois serveurs d impression la température",
-							"demander à mes trois d. imprimer servir pour sa température",
-							"demander à mon serveur d impression trois d pour la température",
-							"demander à mon serveur d impression trois quelle est la température de l imprimante",
-							"demander à mon serveur d impression trois jours la température de mon imprimante",
+							"demander à mon serveur d'impression trois d. la température",
+							"demander à mon serveur d'impression trois d. sa température",
+							"demander à mon serveur d'impression trois d. quelle est la température de l imprimante",
 							"Température",
 							"temp",
 							"quelle est la température de mon imprimante.",
-							"donne moi le temp.",
 							"donne moi la température.",
-							"quel est le temp actuel.",
+							"quel est la température actuelle.",
 							"quelle est la température de mon imprimante.",
-							"quel est mon temp."
 						]
 					},
 					{
 						"name": "GetTimeIntent",
 						"slots": [],
 						"samples": [
-							"demander à mon serveur d impression trois jours combien de temps",
+							"demander à mon serveur d'impression trois d. combien de temps il reste.",
 							"temps",
 							"combien de temps reste-t-il.",
 							"combien de temps reste"
