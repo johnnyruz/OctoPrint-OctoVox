@@ -138,6 +138,13 @@
         "Minutes": "Minuten",
         "Second": "Sekunde",
         "Seconds": "Sekunden"
+      },
+      "PrinterStateValues": {
+        "Offline": "Offline",
+        "Error": "In einem Fehlerstatus",
+        "Printing": "Drucken",
+        "Idle": "Unnutz",
+        "Unknown": "Unbekannt"
       }
     },
     "es-ES": {
@@ -161,8 +168,8 @@
       }
     },
     "fr-FR": {
-    "Static": {
-        "WelcomeSsml": "Bienvenue à <sub alias=\"Octo Vox\">OctoVox</sub>! Comment puis-je vous aider?"
+      "Static": {
+        "WelcomeSsml": "Bienvenue à <sub alias=\"Octo Vox\">OctoVox</sub>! Comment puis-je vous aider?",
         "Demo1": "Voici un exemple de réponse: Votre imprimante est en cours d'impression. La température de le tête de chauffe est à 220 degrés. La température du lit est à 60 degrés. L'impression est court est Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub>. L'impression en court est à 25%. Le temp restant estimé est 3 heures, 20 minutes, 14 secondes.",
         "Demo2": "Voici un exemple de réponse: Votre imprimante est en attente. La température de le tête de chauffe est à 72 degrés. La température du lit est à 27,5 degrés. Li'mpression précédente Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub> à fini en 3 heures, 20 minutes, 14 secondes.",
         "HelpMessage": "avec <sub alias=\"Octo Vox\">OctoVox</sub> skill vous pouvez obtenir des information a propos de votre serveur d'impression 3-D depuis vos appareils amazon. Vous pouvez dire par exemple : demander l'état de mon serveur d'impression trois d ou qu'est ce qui est en train d'imprimer. Vous pouvez aussi dire \"Demo\" pour ecouter un exemple de reponse.",
@@ -211,6 +218,13 @@
         "Minutes": "minutes",
         "Second": "seconde",
         "Seconds": "secondes"
+      },
+      "PrinterStateValues": {
+        "Offline": "Hors-lingne",
+        "Error": "Dans un état d'erreur",
+        "Printing": "Impression",
+        "Idle": "Inutile",
+        "Unknown": "Inconnu"
       }
     },
     "hi-IN": {
@@ -270,6 +284,13 @@
         "Minutes": "minuti",
         "Second": "secondo",
         "Seconds": "secondi"
+      },
+      "PrinterStateValues": {
+        "Offline": "Offline",
+        "Error": "In uno stato di errore",
+        "Printing": "Stampa",
+        "Idle": "Inattivo",
+        "Unknown": "Sconosciuto"
       }
     },
     "ja-JP": {
