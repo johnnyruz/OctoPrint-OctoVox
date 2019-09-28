@@ -165,7 +165,56 @@
     },
     "it-IT": {
       "Static": {
-        "WelcomeSsml": "Benvenuti a <sub alias=\"Octo Vox\">OctoVox</sub>! Come posso aiutarla?"
+        "WelcomeSsml": "Benvenuti a <sub alias=\"Octo Vox\">OctoVox</sub>! Come posso aiutarla?",
+        "Demo1": "Ecco una risposta di esempio: La tua stampante 3D sta stampando. La temperatura della testina di stampa è 220.0 gradi. La temperatura del letto di stampa è 60.1 gradi. Il job di stampa corrente è Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub>. Il  The current job is 25 percent complete. The estimated time remaining is 3 hours, 20 minutes, 14 seconds.",
+        "Demo2": "Here is a sample response: Your Printer is currently Idle. The Hot End Temperature is 72.0 degrees. The Bed Temperature is 27.5 degrees. The previous job Spool_Holder_15_millimeter<sub alias=\"dot gee code\">.gcode</sub> completed in 3 hours, 20 minutes, 14 seconds.",
+        "HelpMessage": "Con lo skill <sub alias=\"Octo Vox\">OctoVox</sub> puoi avere informazione riguardo le stampanti 3-D connesse a OctoPrint dal tuo Amazon Echo. Puoi dire cose come: chiedi al mio server di stampa 3-D lo stato della mia stampante, or, chiedi al mio server 3-D cosa sta stampando. Puoi anche chiedergli, \"Demo\", per sentire risposte di esempio.",
+        "HelpAccountLink": "Quresto skill richiederà di create e collegare un account per usare la maggior parte delle features. Abbiamo inviato una richiesta LinkAccount all'Alexa App. È necessario che tu vada all'App Alexa per confermare questo collegamento al tuo account.",
+        "Prompt": "Cosa vorresti fare adesso?",
+        "HelpPrompt": "come posso aiutarti?",
+        "Goodbye": "Grazie per aver usato <sub alias=\"Octo Vox\">OctoVox.</sub>.",
+        "Fallback": "Purtroppo non ho capito bene cosa chiedevi, forse non sono sufficientemente istruita, sai che puoi istruirmi anche tu in https://github.com/johnnyruz/OctoPrint-OctoVox/issues/5. Comunque per ora assumo tu mi abbia chiesto lo stato della stampante.",
+        "AccountLinkWelcome": "Benvenuto nel servizio <sub alias=\"Octo Vox\">OctoVox</sub>! Questo skill richiede collegamento dell'account. Abbiamo inviato una richiesta LinkAccount alla tua App Alexa. È necessario che tu apra la App Alexa per confermare il collegamento al tuo account. Puoi anche dire, \"Aiuto\", per maggiori informazioni. Cosa vuoi fare?",
+        "AccountLink": "Questo skill richiede collegamento con il tuo account linking. Abbiamo spedito una richiesta alla tua App Alexa. È necessario che tu vada all'App Alexa per impostare il tuo account.  Puoi anche dire, \"Aiuto\", per maggiori informazioni.",
+        "HelpMessageGoogle": "Con OctoVox puoi chiedere informationi riguardo la tua stampante 3D connessa a OctoPrint dal tuo dispositivo Google Home.  Puoi dire cose come: chiedi al mio server di stampa 3-D lo stato della mia stampante, or, chiedi al mio server 3-D cosa sta stampando. Puoi anche chiedergli, \"Demo\", per sentire risposte di esempio.",
+        "HelpMessageLinkGoogle": "Per poter usare OctoVox, dovrai collegare il tuo account OctoVox con Google. Puoi dire \"Collega account\" o perlomeno \"Link Account\", per cominciare il procedimento di collegamento. Puoi anche dire, \"Help\", per maggiori informazioni.",
+        "AccountLinkGoogle": "Sembra che tu non abbia ancora collegato il tuo account OctoVox con Google.  Per farlo dì \"Collega account\" o \"Link Account\", in modo tale da cominciare il procedimento di collegamento. Puoi anche dire, \"Help\", per maggiori informazioni",
+        "AccountLinkGoogleReprompt": "Dì \"Link Account\" per continuare con il collegamento dell'account",
+        "StopString": "Grazie per aver usato OctoVox!"
+      },
+      "Measure": {
+        "Test": "TestMeasure {0}",
+        "HotEndTemp": "La temperatura dell'augello di stampa è {0} gradi.",
+        "BedTemp": "La temperatura della base di stampa è {0} gradis.",
+        "PrinterState": "{0} è {1}.",
+        "CompletionPercent": "Il lavoro di stampa è {0} percento completo.",
+        "TimeRemaining": "La stima del tempo restante è {0}.",
+        "CurrentZ": "La currente posizione Z e` {0} millimetri.",
+        "Filename": "Il file in stampa è {0}.",
+        "LastJobResultSuccess": "Il precedente job {0} completed in {1}.",
+        "LastJobResultFailure": "Il precedente job {0} è fallito perché {1}."
+      },
+      "Error": {
+        "ResponseError": "{0} non risponde correttamente.",
+        "NoUpdateError": "{0} non ha ripostato lo stato per più di {1} {2}. Si raccomanda di controlla la configurazione.",
+        "NoStatusError": "{0} non è in uno stato di funzionamento conosciuto.",
+        "UnknownHotEnd": "La temperatura dell'augello di stampa è sconosciuto.",
+        "UnknownBed": "La temperatura della base di stampa è sconosciuta.",
+        "UnknownFile": "Il file corrente è sconosciuto.",
+        "UnknownPercentage": "La percentuale di lavoro compiuto è sconosciuta.",
+        "UnknownEta": "Il tempo restante è sconosciuto.",
+        "RequestValidationFailed": "Impossibile Validare Richiesta",
+        "NoRegisteredPrinters": "Non hai alcuna stampante registrata"
+      },
+      "Time": {
+        "Day": "giorno",
+        "Days": "giorni",
+        "Hour": "ora",
+        "Hours": "ore",
+        "Minute": "minuto",
+        "Minutes": "minuti",
+        "Second": "secondo",
+        "Seconds": "secondi"
       }
     },
     "ja-JP": {
