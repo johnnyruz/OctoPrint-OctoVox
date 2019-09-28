@@ -495,11 +495,19 @@
 					},
 					{
 						"name": "AMAZON.CancelIntent",
-						"samples": []
+						"samples": [
+							"Cancella stampa",
+							"Interrompi stampa"
+						]
 					},
 					{
 						"name": "AMAZON.HelpIntent",
-						"samples": []
+						"samples": [
+							"Aiuto",
+							"Help",
+							"Non funziona",
+							"Cosa devo fare"
+						]
 					},
 					{
 						"name": "AMAZON.StopIntent",
@@ -507,25 +515,31 @@
 					},
 					{
 						"name": "AMAZON.NavigateHomeIntent",
-						"samples": []
+						"samples": [
+							"Torna al menu principale"
+						]
 					},
 					{
 						"name": "GetStatusIntent",
 						"slots": [],
 						"samples": [
-							"chiedi il mio server di stampa di tre d.",
-							"chiedi ai miei tre servizi di stampa per un aggiornamento dello stato",
-							"chiedi un aggiornamento al mio tre d. print server",
-							"chiedi al mio server di stampa d tre cosa stampa",
-							"chiedi al mio server di stampa d tre per lo stato della mia stampante",
-							"aggiornare",
+							"chiedi al mio server di stampa tre d.",
+							"chiedi al mio server di stampa un aggiornamento dello stato",
+							"chiedi un aggiornamento al mio server di stampa tre d",
+							"chiedi al mio server di stampa tre d cosa stampa",
+							"chiedi al mio server di stampa tre d lo stato della mia stampante", // connected with HelpMessage and HelpMessageGoogle
+							"aggiornami.",
 							"stato",
 							"qual è lo stato della mia stampante.",
-							"dammi un aggiornamento sul mio stato.",
+							"dammi un aggiornamento sullo stato",
 							"dammi un aggiornamento.",
-							"ciò che sta attualmente stampando.",
-							"qual è lo stato della mia stampante.",
-							"qual è il mio status"
+							"ciò che sta attualmente stampando",
+							"qual è lo stato della mia stampante",
+							"qual è il mio status",
+							"quanto manca",
+							"manca ancora molto",
+							"a che punto è la stampante",
+							"a che punto è la stampa tre d"
 						]
 					},
 					{
@@ -533,8 +547,8 @@
 						"slots": [],
 						"samples": [
 							"esempio",
-							"risposta del campione",
-							"campione",
+							"esempi",
+							"esempio di intento",
 							"Demo"
 						]
 					},
@@ -542,19 +556,23 @@
 						"name": "GetTempIntent",
 						"slots": [],
 						"samples": [
-							"chiedi la temperatura del mio server di stampa d tre",
-							"chiedi la mia stampa di tre d. per la sua temperatura",
-							"chiedi al mio server di stampa d tre per la temperatura",
+							"chiedi la temperatura del mio server di stampa tre d",
+							"chiedi la temperatura alla stampa tre d",
+							"chiedi la temperatura al mio server di stampa tre d",
 							"chiedi al mio tre server di stampa qual è la temperatura della stampante",
-							"chiedi al mio server di stampa d tre la temperatura della mia stampante",
+							"chiedi al mio server di stampa tre d la temperatura della mia stampante",
 							"temperatura",
 							"Temp",
-							"qual è la temperatura della mia stampante.",
-							"dammi la temp.",
+							"dammi temperatura.",
 							"dammi la temperatura.",
-							"qual è la temperatura attuale.",
-							"qual è la temperatura della mia stampante.",
-							"qual è il mio temp."
+							"dammi le temperature.",
+							"leggi tempertura.",
+							"aggiornami sulle temperature",
+							"qual è la temperatura della mia stampante",
+							"quali sono le temperature della mia stampante",
+							"qual è la temperatura della stampante",
+							"qual è la temperatura attuale",
+							"qual è temp"
 						]
 					},
 					{
@@ -562,20 +580,41 @@
 						"slots": [],
 						"samples": [
 							"chiedi al mio server di stampa tre d. tempo rimanente",
-							"chiedi al mio server di stampa d tre quanto tempo rimane",
-							"chiedi al mio tre d. print server per quanto tempo",
+							"chiedi al mio server di stampa tre d quanto tempo rimane",
+							"chiedi al mio server di stampa tre d quanto tempo manca",
+							"chiedi al mio server tre d. print quanto tempo",
 							"tempo",
-							"quanto tempo è rimasto.",
-							"quanto tempo rimane."
+							"quanto tempo è rimasto",
+							"quanto tempo rimane",
+							"quanto tempo manca alla fine della stampa",
+							"quanto tempo manca alla fine",
+							"quanto tempo manca"
 						]
 					},
 					{
 						"name": "AMAZON.PauseIntent",
-						"samples": []
+						"samples": [
+							"pausa la stampa tre d",
+							"ferma la stampa tre d",
+							"pausa la stampa",
+							"smetti di stampare",
+							"ferma la stampa",
+							"fermati",
+							"pausa"
+						]
 					},
 					{
 						"name": "AMAZON.ResumeIntent",
-						"samples": []
+						"samples": [
+							"riprendi la stampa tre d",
+							"continua la stampa tre d",
+							"riprendi a stampare",
+							"continua a stampare",
+							"riprendi la stampa",
+							"continua la stampa",
+							"finisci la pausa",
+							"smetti la pausa"
+						]
 					}
 				],
 				"types": []
