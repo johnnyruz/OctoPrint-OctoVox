@@ -52,6 +52,13 @@
         "Minutes": "minutes",
         "Second": "second",
         "Seconds": "seconds"
+      },
+      "PrinterStateValues": {
+        "Offline": "Offline",
+        "Error": "In an Error State",
+        "Printing": "Printing",
+        "Idle": "Idle",
+        "Unknown": "Unknown"
       }
     },
     "en-GB": {
