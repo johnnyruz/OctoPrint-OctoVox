@@ -76,14 +76,14 @@ class UpdateStatus:
 						statusList.append(dict(StatusTypeId=self._statusItemIds['bed_temp'], StatusValue=temp))
 
 			if 'state' in printerStatus:
-                                if 'text' in printerStatus['state']:
-                                        if printerStatus['state']['text'] is not None:
+				if 'text' in printerStatus['state']:
+					if printerStatus['state']['text'] is not None:
 						statusList.append(dict(StatusTypeId=self._statusItemIds['printer_state'], StatusValue=printerStatus['state']['text']))
 
 			if 'progress' in printerStatus:
-                        	if 'completion' in printerStatus['progress']:
-                                	if printerStatus['progress']['completion'] is not None:
-                                        	perc = "{:.1f}".format(printerStatus['progress']['completion'])
+				if 'completion' in printerStatus['progress']:
+					if printerStatus['progress']['completion'] is not None:
+						perc = "{:.1f}".format(printerStatus['progress']['completion'])
 						statusList.append(dict(StatusTypeId=self._statusItemIds['completion_percent'], StatusValue=perc))
 
 				if 'printTimeLeft' in printerStatus['progress']:

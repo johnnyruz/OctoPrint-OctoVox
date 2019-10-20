@@ -27,7 +27,7 @@ class OctovoxPlugin(octoprint.plugin.StartupPlugin,
 		self._updateStatusTimer = None
 		self._update_status = None
 
-        def initialize(self):
+	def initialize(self):
 		self._update_status = UpdateStatus(self._logger)
 
 	##~~ StartupPlugin mixin
@@ -51,18 +51,18 @@ class OctovoxPlugin(octoprint.plugin.StartupPlugin,
 			printer_last_update_result=None
 		)
 
-        def get_settings_restricted_paths(self):
+	def get_settings_restricted_paths(self):
 		return dict(admin=[["printer_name"], ["printer_uid"], ["printer_is_registered"], ["printer_last_update_result"], ["update_settings_interval"], ["baseApiUrl"], ["baseRegistrationUrl"], ["registration_client_key"],],
                 		user=[[],],
                 		never=[[],])
 
 	def on_settings_save(self, data):
-        	self._logger.info("saving settings")
+		self._logger.info("saving settings")
 		old_interval = self._settings.get_int(["update_settings_interval"])
 
-        	octoprint.plugin.SettingsPlugin.on_settings_save(self, data)
+		octoprint.plugin.SettingsPlugin.on_settings_save(self, data)
 
-        	new_interval = self._settings.get_int(["update_settings_interval"])
+		new_interval = self._settings.get_int(["update_settings_interval"])
 
 		if old_interval != new_interval:
 			self._restart_timer()
@@ -144,6 +144,7 @@ class OctovoxPlugin(octoprint.plugin.StartupPlugin,
 # ("OctoPrint-PluginSkeleton"), you may define that here. Same goes for the other metadata derived from setup.py that
 # can be overwritten via __plugin_xyz__ control properties. See the documentation for that.
 __plugin_name__ = "OctoVox Plugin"
+__plugin_pythoncompat__ = ">2.7,<4"
 
 def __plugin_load__():
 	global __plugin_implementation__

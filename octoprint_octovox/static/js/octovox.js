@@ -16,13 +16,13 @@ $(function() {
         self.testSuccessful = ko.observable(false);
         self.testMessage = ko.observable();
 		
-		self.requestActive = ko.observable(false);
+	self.requestActive = ko.observable(false);
         self.requestResult = ko.observable(false);
         self.requestMessage = ko.observable();
 				
-		self.requestRegistration = function() {
+	self.requestRegistration = function() {
 			
-			self.requestResult(false);
+            self.requestResult(false);
             self.requestMessage("");
 			
 			var printer_name = $('#printer_name').val();
